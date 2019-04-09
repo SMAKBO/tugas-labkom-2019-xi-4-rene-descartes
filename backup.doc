@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>TES</title>
+	<link rel="stylesheet" type="text/css" href="tes.css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+<img src="https://undergroundmathematics.org/geometry-of-equations/cartesian-coordinates/images/cartesiancoordinatesdiagram4.png" alt="Workplace" usemap="#workmap" width="1586px" height="800px">
+<map name="workmap">
+  <area shape="circle" coords="34,44,270,350" alt="Rene's Book" href="Buku Rene.html">
+  <area shape="circle" coords="290,172,333,250" alt="Rene's Education" href="pendidikan Rene.html">
+  <area shape="circle" coords="337,300,44" alt="Rene's Early Life" href="Early life of Rene Descartes.html">
+</map>
+<footer>
+	M. Naufal K.R.A.J.S.
+	</footer>
+</body>
+</html>

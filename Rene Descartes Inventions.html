@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inconsolata">
+<style>
+body, html {
+  height: 100%;
+  font-family: "Inconsolata", sans-serif;
+}
+
+.bgimg {
+  background-position: center;
+  background-size: cover;
+  background-image: url("https://cdn.thinglink.me/api/image/629711284970979328/1240/10/scaletowidth");
+  min-height: 75%;
+}
+
+.menu {
+  display: none;
+}
+</style>
+<body>
+
+<div class="w3-top">
+  <div class="w3-row w3-padding w3-black">
+    <div class="w3-col s3">
+      <a href="#" class="w3-button w3-block w3-black">HOME</a>
+    </div>
+    <div class="w3-col s3">
+      <a href="#about" class="w3-button w3-block w3-black">ABOUT</a>
+    </div>
+    <div class="w3-col s3">
+      <a href="#menu" class="w3-button w3-block w3-black">MENU</a>
+    </div>
+    <div class="w3-col s3">
+      <a href="#where" class="w3-button w3-block w3-black">WHERE</a>
+    </div>
+  </div>
+</div>
+
+<header class="bgimg w3-display-container w3-grayscale-0" id="home">
+  <div class="w3-display-middle w3-center">
+    <span class="w3-text-white" style="font-size:60px">René Descartes<br>Inventions</span>
+  </div>
+  </div>
+</header>
+
+<div class="sand grayscale large">
+
+<div class="w3-container" id="about">
+  <div class="w3-content" style="max-width:700px">
+    <h5 class="w3-center w3-padding-64"><span class="w3-tag w3-wide">1. The Universal Method of Deductive Reasoning</span></h5>
+    <p> The philosopher of method deprived science of the rigorousness of the scholastic method.
+His project postulated a common general method in his rules for all sciences, according to which doubt is the best way to arrive at certainty.
+The core of Descartes' rationalism is based on the fact that the structure of human reason is capable of being applied to the knowledge of all objects. That is the sustenance of all the sciences.</p>
+    <p> The fundamental reference of the rational method was mathematics, this because only this science is able to give certain, obvious and exact demonstrations.
+This is how he posed the decomposition of every complex problem in its simplest parts to arrive at a solution.
+Then he made the mathematical method, the method of all real, the unifying principle of all sciences, the basis of every research process</p>
+    <div class="w3-panel w3-leftbar w3-light-grey">
+      <p><i>"Conquer yourself rather than the world."</i></p>
+      <p>-René Descartes</p>
+    </div>
+   
+<div class="w3-container" id="menu">
+  <div class="w3-content" style="max-width:700px">
+    <h5 class="w3-center w3-padding-64"><span class="w3-tag w3-wide">2. Analytical and Cartesian Geometries</span></h5>
+    <p>When Descartes formulated his Cartesian project of elaborating a universal science, based on mathematics as a paradigm, he created a kind of universal mathematics freed from numbers and figures: analytic geometry.</p>
+    <p> This was a method that involved solving geometric problems algebraically and algebraic problems geometrically.
+Cartesian geometry and exponential notation, invented by Descartes, is the algebraic system taught in schools in modern times. </p>
+    <div class="w3-panel w3-leftbar w3-light-grey">
+      <p><i>"Mathematics is a more powerful instrument of knowledge than any other that has been bequeathed to us by human agency."</i></p>
+      <p>-René Descartes</p>
+     </div>
+    
+<div class="w3-container" id="where">
+  <div class="w3-content" style="max-width:700px">
+    <h5 class="w3-center w3-padding-64"><span class="w3-tag w3-wide">3. The Metaphysical or Cartesian Dualism</span></h5>
+    <p> This is a postulate that distinguishes between mind, matter and God.
+According to this theory, the body functions as a machine having divisible material properties and a mind (soul), indivisible substance that does not follow the laws of physics.</p>
+    <p> Body and mind interact through the pineal gland. Thus dualism occurs: the mind controls the body and, in turn, it can influence the rational mind. Mind and matter are proofs of God's existence.
+This is how the philosopher, based on his rationalism, establishes the metaphysical foundations that support the existence of God, the mind and the material world</p>
+    <div class="w3-panel w3-leftbar w3-light-grey">
+      <p><i>"Each problem that I solved became a rule,which served afterwards to solve other problems."</i></p>
+      <p>-René Descartes</p>
+	</div>
+
+<script>
+// Tabbed Menu
+function openMenu(evt, menuName) {
+  var i, x, tablinks;
+  x = document.getElementsByClassName("menu");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablink");
+  for (i = 0; i < x.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" w3-dark-grey", "");
+  }
+  document.getElementById(menuName).style.display = "block";
+  evt.currentTarget.firstElementChild.className += " w3-dark-grey";
+}
+document.getElementById("myLink").click();
+</script>
+
+</body>
+</html>
